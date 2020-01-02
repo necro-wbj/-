@@ -1,7 +1,7 @@
 ```dot
 digraph {
     bgcolor="#F2E6E6";
-    label="雁歸居師圖表";
+    label="雁歸居師徒表";
     labelloc="t";
     labeldistance=10;
     node[fontname="微軟正黑體",shape=box,fixedsize=true,height=0.7,width=1.5];
