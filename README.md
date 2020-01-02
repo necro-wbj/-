@@ -75,7 +75,7 @@ digraph{
         color="#F2E6E6";
         優優[label="優優\n(陌優)",color="#3793FF",fontcolor="#3793FF"];
         優優[label="優優\n(陌優)",color="#3793FF",fontcolor="#3793FF"];
-        毛毛[label="毛毛\n(毛毛)",color="#02C874",fontcolor="#02C874"];
+        毛毛[label="毛毛\n(鼐余)",color="#02C874",fontcolor="#02C874"];
         草草[label="草草\n(明天期末考)",color="#CD853F",fontcolor="#CD853F"];
         泡芙[label="泡芙\n(水漪然)",color="#C498FF",fontcolor="#C498FF"];
         優優->{毛毛 草草}
