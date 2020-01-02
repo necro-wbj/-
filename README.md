@@ -32,7 +32,7 @@ digraph {
     "小開水"[label="小開水\n(板木老大)",color="lightgray",fontcolor="lightgray"]
     "茗茗"[label="茗茗\n(墨血丹樅)",color="#F04660",fontcolor="#F04660"]
     "丹丹"[label="丹丹\n(甯珞)",color="#C498FF",fontcolor="#C498FF"]
-    "楠雁"[label="楠雁\n(小楠)",color="#FF81B0",fontcolor="#FF81B0"]
+    "楠燕"[label="楠燕\n(小楠)",color="#FF81B0",fontcolor="#FF81B0"]
     "琰琰"[label="琰琰\n(庭前賦雪)",color="#6A6CBD",fontcolor="#6A6CBD"]
     //"仟仟"[label="仟仟\n(上雨知弦)",color="black",fontcolor="black"]
     "小貳"[label="小貳\n(非貳)",color="black",fontcolor="black"]
