@@ -4,6 +4,7 @@ digraph {
     label="雁歸居師徒表";
     labelloc="t";
     labeldistance=10;
+    edge[color="#34a8eb"];
     node[fontname="微軟正黑體",shape=box,fixedsize=true,height=0.7,width=1.5];
     //"帥氣的小姐姐"[label="帥氣的小姐姐\n(葬雪調)",color="#FF81B0",fontcolor="#FF81B0"]
     "大貓咪"[label="大貓咪\n(昊森)",color="black",fontcolor="black"]
@@ -43,14 +44,16 @@ digraph {
     "小茄子"[label="小茄子\n(花茄子)",color="#C498FF",fontcolor="#C498FF"]
     "小蛋"[label="小蛋\n(鳴花)",color="#C498FF",fontcolor="#C498FF"]
     "喵喵"[label="喵喵\n(喵給本喵跪下)",color="#C498FF",fontcolor="#C498FF"]
+    "壓壓"[label="壓壓\n(一筆壓壓)",color="black",fontcolor="black"]
 
     {rank = same;大貓咪 "暱稱\n(ID)"}
-    大貓咪->{R靈 阿皮 小易 夏夏 塵塵 淺淺 皓呆 鹿鹿}
+    大貓咪->{R靈 阿皮 小易 夏夏 塵塵 淺淺 皓呆 鹿鹿 壓壓}
     淺淺->{琰琰 柳柳 來來 小茄子}
     {白白 淺淺}->小開水
     白白->{喵喵}
     小易->{清清 幼幼}
-    阿皮->{00 柳柳 茗茗 丹丹 小蛋}
+    阿皮->{柳柳 茗茗 丹丹}
+    阿皮->{00 小蛋} [color = "#f1c40f"]
     R靈->{藍藍 緋緋 茗茗}
     茗茗->{瀾瀾}
     緋緋->{夜曄空}
@@ -63,6 +66,7 @@ digraph{
     labelloc="t";
     node[fontname="微軟正黑體",shape=box,fixedsize=true,height=0.7,width=1.5];
     bgcolor="#F2E6E6";
+    edge [color = "#34a8eb"];
     color="#F2E6E6";
        subgraph cluster{
         芋頭[label="芋芋\n(沙丁芋頭)",color="#16D8D8",fontcolor="#16D8D8"];
@@ -92,15 +96,19 @@ graph{
     labeldistance=10;
     node[fontname="微軟正黑體",shape=box,fixedsize=true,height=0.7,width=1.5];
     label="親友";
+    edge [color = "#f1c40f"];
     "00" [color="#3793FF",fontcolor="#3793FF"];
     "夏夏"[color="#FF81B0",fontcolor="#FF81B0"];
     "幼幼"[color="#16D8D8",fontcolor="#16D8D8"];
     "R姚"[label="R姚\n(元姚)",color="#F04660",fontcolor="#F04660"];
     "曉百" [color="#C498FF",fontcolor="#C498FF"];
     "雪雪" [label="雪雪\n(盈雪)",color="#FF6F53",fontcolor="#FF6F53"];
+    "ㄇㄇ" [label="ㄇㄇ情緣",color="#F04660",fontcolor="#F04660"];
+    "墨曲依" [label="墨曲依",color="#02C874",fontcolor="#02C874"];
     夏夏--雪雪;
     幼幼--R姚;
-    00 -- 曉百;
+    00 -- 曉百 [color = "#34a8eb"];
+    ㄇㄇ -- 墨曲依 [color = "#34a8eb"];
     }
 }
 ```
