@@ -46,9 +46,10 @@ digraph {
     //"喵喵"[label="喵喵\n(喵給本喵跪下)",color="#C498FF",fontcolor="#C498FF"]
     "壓壓"[label="壓壓\n(一筆壓壓)",color="black",fontcolor="black"]
     "蕉蕉"[label="蕉蕉\n(醉露)",color="#6A6CBD",fontcolor="#6A6CBD"]
+    泡芙[label="泡芙\n(水漪然)",color="#C498FF",fontcolor="#C498FF"]
 
     {rank = same;大貓咪 "暱稱\n(ID)"}
-    大貓咪->{小易 夏夏 塵塵 R靈 淺淺 鹿鹿 壓壓 蕉蕉}
+    大貓咪->{小易 夏夏 塵塵 R靈 淺淺 鹿鹿 壓壓 蕉蕉 泡芙}
     淺淺->{琰琰 柳柳 來來 小茄子 白白}
     // {白白 淺淺}->小開水
     // 白白->喵喵
